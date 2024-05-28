@@ -97,7 +97,7 @@ describe('UserService', () => {
   });
 
   it('remove => should find a user by a given id, remove and then return Number of affected rows', async () => {
-    const id = 1;
+    const id = '1';
     const user = {
       id: 1,
       firstname: 'Chadwick',

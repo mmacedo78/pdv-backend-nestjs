@@ -122,6 +122,7 @@ describe('UsersController', () => {
     expect(mockUsersService.update).toBeCalled();
     expect(mockUsersService.update).toBeCalledWith(+id, updateUserDto);
   });
+  
   it('remove => should find a user by a given id, remove and then return Number of affected rows', async () => {
     const id = '1';
     const user = {
